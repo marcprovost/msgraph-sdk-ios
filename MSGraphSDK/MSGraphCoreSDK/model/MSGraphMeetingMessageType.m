@@ -2,7 +2,7 @@
 
 
 
-#include <MSGraphMeetingMessageType.h>
+#include "MSGraphMeetingMessageType.h"
 
 @interface MSGraphMeetingMessageType () {
     MSGraphMeetingMessageTypeValue _enumValue;

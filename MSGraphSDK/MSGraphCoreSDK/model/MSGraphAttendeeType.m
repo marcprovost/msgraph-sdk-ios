@@ -2,7 +2,7 @@
 
 
 
-#include <MSGraphAttendeeType.h>
+#include "MSGraphAttendeeType.h"
 
 @interface MSGraphAttendeeType () {
     MSGraphAttendeeTypeValue _enumValue;

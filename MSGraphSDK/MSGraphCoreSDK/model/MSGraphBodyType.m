@@ -2,7 +2,7 @@
 
 
 
-#include <MSGraphBodyType.h>
+#include "MSGraphBodyType.h"
 
 @interface MSGraphBodyType () {
     MSGraphBodyTypeValue _enumValue;

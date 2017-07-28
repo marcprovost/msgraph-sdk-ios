@@ -2,7 +2,7 @@
 
 
 
-#include <MSGraphEventType.h>
+#include "MSGraphEventType.h"
 
 @interface MSGraphEventType () {
     MSGraphEventTypeValue _enumValue;

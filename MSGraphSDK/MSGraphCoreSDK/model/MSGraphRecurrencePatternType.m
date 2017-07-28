@@ -2,7 +2,7 @@
 
 
 
-#include <MSGraphRecurrencePatternType.h>
+#include "MSGraphRecurrencePatternType.h"
 
 @interface MSGraphRecurrencePatternType () {
     MSGraphRecurrencePatternTypeValue _enumValue;

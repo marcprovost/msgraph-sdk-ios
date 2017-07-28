@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MSGraphSDK"
-  s.version      = "0.10.1"
+  s.version      = "0.10.2"
   s.summary      = "Microsoft Graph iOS SDK"
   s.description  = <<-DESC
                     Integrate the Microsoft Graph API into your iOS App!
@@ -11,7 +11,8 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE.txt" }
   s.author        = 'Microsoft Graph'
 
-  s.platform     = :ios, "7.0"
+  s.ios.deployment_target = "8.0"
+  s.osx.deployment_target = "10.10"
 
   s.source       = { :git => "https://github.com/MicrosoftGraph/msgraph-sdk-ios.git",
                      :tag => "#{s.version}"}

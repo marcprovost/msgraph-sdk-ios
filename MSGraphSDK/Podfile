@@ -2,8 +2,11 @@
 # platform :ios, '6.0'
 
 target 'MSGraphSDK' do
-
 end
+
+target 'MSGraphSDK-OSX' do
+end
+
 target 'MSGraphSDKTests' do
     pod 'OCMock'
 end
