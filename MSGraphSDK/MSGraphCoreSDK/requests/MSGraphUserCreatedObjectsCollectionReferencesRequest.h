@@ -9,7 +9,7 @@
 #import "MSGraphModels.h"
 #import "MSCollectionRequest.h"
 
-typedef void (^MSGraphDirectoryObjectCompletionHandler)(MSGraphDirectoryObject *response, NSError *error);
+
 
 typedef void (^MSGraphUserCreatedObjectsCollectionReferencesCompletionHandler)(MSCollection *response, MSGraphUserCreatedObjectsCollectionReferencesRequest *nextRequest, NSError *error);
 

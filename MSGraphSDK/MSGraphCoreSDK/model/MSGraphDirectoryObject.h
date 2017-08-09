@@ -9,3 +9,5 @@
 
 
 @end
+
+typedef void (^MSGraphDirectoryObjectCompletionHandler)(MSGraphDirectoryObject *response, NSError *error);
