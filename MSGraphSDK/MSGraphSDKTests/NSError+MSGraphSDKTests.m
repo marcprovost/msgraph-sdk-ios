@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import <MSGraphSDK/MSGraphSDK.h>
 #import "NSError+MSGraphSDK.h"
 #import "MSConstants.h"
 #import "MSError.h"

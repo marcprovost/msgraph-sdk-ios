@@ -1,6 +1,13 @@
 // Copyright (c) Microsoft Corporation.  All Rights Reserved.  Licensed under the MIT License.  See License in the project root for license information.
 
+#import <TargetConditionals.h>
+#import <Foundation/Foundation.h>
 
+#if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR || TARGET_OS_TV
+#import <UIKit/UIKit.h>
+#else
+#import <AppKit/AppKit.h>
+#endif
 
 #import "MSDate.h"
 #import "MSGraphBodyType.h"

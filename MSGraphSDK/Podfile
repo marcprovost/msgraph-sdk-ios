@@ -1,13 +1,24 @@
-# Uncomment this line to define a global platform for your project
-# platform :ios, '6.0'
+source 'git@github.com:Ginger-Labs/CocoaPodSpecs.git'
+#need to source the public specs since we specify a private specs
+source 'https://github.com/CocoaPods/Specs.git'
 
-target 'MSGraphSDK' do
-end
-
-target 'MSGraphSDK-OSX' do
-end
-
-target 'MSGraphSDKTests' do
-    pod 'OCMock'
+abstract_target 'MSGraphSDK-Shared' do
+    use_frameworks!
+    inhibit_all_warnings!
+    
+    target 'MSGraphSDK' do
+        platform :ios, '8.0'
+    end
+    
+    
+    target 'MSGraphSDK-OSX' do
+        platform :osx, '10.10'
+    end
+    
+    target 'MSGraphSDKTests' do
+        platform :ios, '8.0'
+        pod 'OCMock'
+    end
+    
 end
 

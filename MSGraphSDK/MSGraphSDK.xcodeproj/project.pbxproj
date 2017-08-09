@@ -58,11 +58,10 @@
 		0EBC14CF1CFC32C700FDF800 /* MSURLSessionDataTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBC14CE1CFC32C700FDF800 /* MSURLSessionDataTaskTests.m */; };
 		0EFE52591CEC9628002494E7 /* MSGraphSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B4D1201AF8215D0083D86C /* MSGraphSDK.framework */; };
 		0EFE52611CED838F002494E7 /* MSCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFE52601CED838F002494E7 /* MSCollectionTests.m */; };
-		2851A9D27A8C555D32A8260D /* libPods-MSGraphSDK-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F855B94DAE38579BA7707139 /* libPods-MSGraphSDK-OSX.a */; };
-		668D8C158FDD15041128EA3D /* libPods-MSGraphSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C74F7E7D5B5D9FF77DCECD /* libPods-MSGraphSDK.a */; };
+		61C1B1F82666FB221BDC8EBA /* Pods_MSGraphSDK_Shared_MSGraphSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2FC69AC151097076D0A5A0 /* Pods_MSGraphSDK_Shared_MSGraphSDK.framework */; };
 		7C12E5B61CA3469400328A79 /* MSGraphSDKVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C12E5B41CA3469400328A79 /* MSGraphSDKVersion.h */; };
 		7C12E5B71CA3469400328A79 /* MSGraphSDKVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C12E5B51CA3469400328A79 /* MSGraphSDKVersion.m */; };
-		7C4C198B1CAAF1E000FBDFFD /* MSGraphClientConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C19891CAAF1E000FBDFFD /* MSGraphClientConfiguration.h */; };
+		7C4C198B1CAAF1E000FBDFFD /* MSGraphClientConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C19891CAAF1E000FBDFFD /* MSGraphClientConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C4C198C1CAAF1E000FBDFFD /* MSGraphClientConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4C198A1CAAF1E000FBDFFD /* MSGraphClientConfiguration.m */; };
 		7C4C19A11CAAF77B00FBDFFD /* MSURLSessionDataTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C19941CAAF77B00FBDFFD /* MSURLSessionDataTask.h */; };
 		7C4C19A21CAAF77B00FBDFFD /* MSURLSessionDataTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4C19951CAAF77B00FBDFFD /* MSURLSessionDataTask.m */; };
@@ -75,9 +74,9 @@
 		7C4C19A91CAAF77B00FBDFFD /* MSURLSessionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4C199C1CAAF77B00FBDFFD /* MSURLSessionTask.m */; };
 		7C4C19AA1CAAF77B00FBDFFD /* MSURLSessionUploadTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C199D1CAAF77B00FBDFFD /* MSURLSessionUploadTask.h */; };
 		7C4C19AB1CAAF77B00FBDFFD /* MSURLSessionUploadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4C199E1CAAF77B00FBDFFD /* MSURLSessionUploadTask.m */; };
-		7C4C19B01CAAF90300FBDFFD /* MSGraphClient+DefaultConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C19AC1CAAF90300FBDFFD /* MSGraphClient+DefaultConfiguration.h */; };
+		7C4C19B01CAAF90300FBDFFD /* MSGraphClient+DefaultConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C19AC1CAAF90300FBDFFD /* MSGraphClient+DefaultConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C4C19B11CAAF90300FBDFFD /* MSGraphClient+DefaultConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4C19AD1CAAF90300FBDFFD /* MSGraphClient+DefaultConfiguration.m */; };
-		7C4C19B21CAAF90300FBDFFD /* MSGraphClientConfiguration+DefaultConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C19AE1CAAF90300FBDFFD /* MSGraphClientConfiguration+DefaultConfiguration.h */; };
+		7C4C19B21CAAF90300FBDFFD /* MSGraphClientConfiguration+DefaultConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C19AE1CAAF90300FBDFFD /* MSGraphClientConfiguration+DefaultConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C4C19B31CAAF90300FBDFFD /* MSGraphClientConfiguration+DefaultConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4C19AF1CAAF90300FBDFFD /* MSGraphClientConfiguration+DefaultConfiguration.m */; };
 		7C4C19B61CAB17FE00FBDFFD /* MSGraphUserMailFoldersCollectionRequestBuilder+KnownFolders.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C19B41CAB17FE00FBDFFD /* MSGraphUserMailFoldersCollectionRequestBuilder+KnownFolders.h */; };
 		7C4C19B71CAB17FE00FBDFFD /* MSGraphUserMailFoldersCollectionRequestBuilder+KnownFolders.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4C19B51CAB17FE00FBDFFD /* MSGraphUserMailFoldersCollectionRequestBuilder+KnownFolders.m */; };
@@ -826,10 +825,10 @@
 		7C70E8501C877763008A0C07 /* MSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C70E8471C877763008A0C07 /* MSLogger.m */; };
 		7C70E8511C877763008A0C07 /* MSNSURLSessionTaskDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70E8491C877763008A0C07 /* MSNSURLSessionTaskDelegate.h */; };
 		7C70E8521C877763008A0C07 /* MSNSURLSessionTaskDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C70E84A1C877763008A0C07 /* MSNSURLSessionTaskDelegate.m */; };
-		7C70E8531C877763008A0C07 /* MSURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70E84B1C877763008A0C07 /* MSURLSessionManager.h */; };
+		7C70E8531C877763008A0C07 /* MSURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70E84B1C877763008A0C07 /* MSURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C70E8541C877763008A0C07 /* MSURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C70E84C1C877763008A0C07 /* MSURLSessionManager.m */; };
 		7C70E8561C877797008A0C07 /* MSGraphSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70E8551C877797008A0C07 /* MSGraphSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C70E85E1C877818008A0C07 /* NSError+MSGraphSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70E85A1C877818008A0C07 /* NSError+MSGraphSDK.h */; };
+		7C70E85E1C877818008A0C07 /* NSError+MSGraphSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70E85A1C877818008A0C07 /* NSError+MSGraphSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C70E85F1C877818008A0C07 /* NSError+MSGraphSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C70E85B1C877818008A0C07 /* NSError+MSGraphSDK.m */; };
 		7C70EB2C1C877856008A0C07 /* MSCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70E8621C877855008A0C07 /* MSCollection.h */; };
 		7C70EB2D1C877856008A0C07 /* MSCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C70E8631C877855008A0C07 /* MSCollection.m */; };
@@ -885,9 +884,11 @@
 		7C70EB6C1C877856008A0C07 /* NSDate+MSSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C70E8A61C877855008A0C07 /* NSDate+MSSerialization.m */; };
 		7C70EB6D1C877856008A0C07 /* NSJSONSerialization+ResponseHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70E8A71C877855008A0C07 /* NSJSONSerialization+ResponseHelper.h */; };
 		7C70EB6E1C877856008A0C07 /* NSJSONSerialization+ResponseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C70E8A81C877855008A0C07 /* NSJSONSerialization+ResponseHelper.m */; };
-		7C70EDF61C8E1D26008A0C07 /* MSGraphCoreSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70EDF51C8E1D26008A0C07 /* MSGraphCoreSDK.h */; };
+		7C70EDF61C8E1D26008A0C07 /* MSGraphCoreSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70EDF51C8E1D26008A0C07 /* MSGraphCoreSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C70EE4E1C90DE73008A0C07 /* MSBlockAuthenticationProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70EE4C1C90DE73008A0C07 /* MSBlockAuthenticationProvider.h */; };
 		7C70EE4F1C90DE73008A0C07 /* MSBlockAuthenticationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C70EE4D1C90DE73008A0C07 /* MSBlockAuthenticationProvider.m */; };
+		AF2F97B77C0D4B02FB88066C /* Pods_MSGraphSDK_Shared_MSGraphSDK_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1026D5276FD6029C58320C2C /* Pods_MSGraphSDK_Shared_MSGraphSDK_OSX.framework */; };
+		B03F1B061F3B78E300B5D5F6 /* MSGraphClient+DefaultConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C19AC1CAAF90300FBDFFD /* MSGraphClient+DefaultConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0AC94FA1F3B686C005F9283 /* MSGraphSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70E8551C877797008A0C07 /* MSGraphSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0AC94FB1F3B6878005F9283 /* MSAuthenticationProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70E8391C8776E5008A0C07 /* MSAuthenticationProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0AC94FC1F3B6878005F9283 /* MSHttpProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70E83C1C8776E5008A0C07 /* MSHttpProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -896,10 +897,10 @@
 		B0AC94FF1F3B6882005F9283 /* MSBlockAuthenticationProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70EE4C1C90DE73008A0C07 /* MSBlockAuthenticationProvider.h */; };
 		B0AC95001F3B6884005F9283 /* MSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70E8461C877763008A0C07 /* MSLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0AC95011F3B688E005F9283 /* MSNSURLSessionTaskDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70E8491C877763008A0C07 /* MSNSURLSessionTaskDelegate.h */; };
-		B0AC95021F3B6891005F9283 /* MSURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70E84B1C877763008A0C07 /* MSURLSessionManager.h */; };
-		B0AC95031F3B6896005F9283 /* MSGraphCoreSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70EDF51C8E1D26008A0C07 /* MSGraphCoreSDK.h */; };
+		B0AC95021F3B6891005F9283 /* MSURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70E84B1C877763008A0C07 /* MSURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0AC95031F3B6896005F9283 /* MSGraphCoreSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70EDF51C8E1D26008A0C07 /* MSGraphCoreSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0AC95041F3B68A1005F9283 /* MSTimeOfDay.h in Headers */ = {isa = PBXBuildFile; fileRef = BA23B9181D6251E000CB0C55 /* MSTimeOfDay.h */; };
-		B0AC95051F3B68A1005F9283 /* MSGraphClientConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C19891CAAF1E000FBDFFD /* MSGraphClientConfiguration.h */; };
+		B0AC95051F3B68A1005F9283 /* MSGraphClientConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C19891CAAF1E000FBDFFD /* MSGraphClientConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0AC95061F3B68A1005F9283 /* MSCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70E8621C877855008A0C07 /* MSCollection.h */; };
 		B0AC95071F3B68A1005F9283 /* MSCollectionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70E8641C877855008A0C07 /* MSCollectionRequest.h */; };
 		B0AC95081F3B68A1005F9283 /* MSCollectionRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70E8661C877855008A0C07 /* MSCollectionRequestBuilder.h */; };
@@ -1304,8 +1305,8 @@
 		B0AC96971F3B6912005F9283 /* MSGraphUserSendMailRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6F5A2D1CB33B8B00EDF1C9 /* MSGraphUserSendMailRequestBuilder.h */; };
 		B0AC96981F3B6912005F9283 /* MSGraphUserWithReferenceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6F5A2F1CB33B8B00EDF1C9 /* MSGraphUserWithReferenceRequest.h */; };
 		B0AC96991F3B6912005F9283 /* MSGraphUserWithReferenceRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6F5A311CB33B8B00EDF1C9 /* MSGraphUserWithReferenceRequestBuilder.h */; };
-		B0AC969A1F3B691C005F9283 /* MSGraphClientConfiguration+DefaultConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C19AE1CAAF90300FBDFFD /* MSGraphClientConfiguration+DefaultConfiguration.h */; };
-		B0AC969B1F3B691F005F9283 /* NSError+MSGraphSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70E85A1C877818008A0C07 /* NSError+MSGraphSDK.h */; };
+		B0AC969A1F3B691C005F9283 /* MSGraphClientConfiguration+DefaultConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C19AE1CAAF90300FBDFFD /* MSGraphClientConfiguration+DefaultConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0AC969B1F3B691F005F9283 /* NSError+MSGraphSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70E85A1C877818008A0C07 /* NSError+MSGraphSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0F99F681F2A69E700CDE1AC /* MSGraphSDKVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C12E5B51CA3469400328A79 /* MSGraphSDKVersion.m */; };
 		B0F99F691F2A69E700CDE1AC /* MSBlockAuthenticationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C70EE4D1C90DE73008A0C07 /* MSBlockAuthenticationProvider.m */; };
 		B0F99F6A1F2A69E700CDE1AC /* MSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C70E8471C877763008A0C07 /* MSLogger.m */; };
@@ -1719,7 +1720,7 @@
 		B0F9A1021F2A6A0100CDE1AC /* NSError+MSGraphSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C70E85B1C877818008A0C07 /* NSError+MSGraphSDK.m */; };
 		BA23B91A1D6251E000CB0C55 /* MSTimeOfDay.h in Headers */ = {isa = PBXBuildFile; fileRef = BA23B9181D6251E000CB0C55 /* MSTimeOfDay.h */; };
 		BA23B91B1D6251E000CB0C55 /* MSTimeOfDay.m in Sources */ = {isa = PBXBuildFile; fileRef = BA23B9191D6251E000CB0C55 /* MSTimeOfDay.m */; };
-		ED791DECEFED68832BD1C1B1 /* libPods-MSGraphSDKTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D0858B0D0686548DE368A8 /* libPods-MSGraphSDKTests.a */; };
+		FFB5CA2DCCB7335F70445C8F /* Pods_MSGraphSDK_Shared_MSGraphSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51539526F221E543AD58700 /* Pods_MSGraphSDK_Shared_MSGraphSDKTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1786,10 +1787,12 @@
 		0EFE52541CEC9627002494E7 /* MSGraphSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSGraphSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EFE52581CEC9628002494E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EFE52601CED838F002494E7 /* MSCollectionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCollectionTests.m; sourceTree = "<group>"; };
+		1026D5276FD6029C58320C2C /* Pods_MSGraphSDK_Shared_MSGraphSDK_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSGraphSDK_Shared_MSGraphSDK_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B4D1201AF8215D0083D86C /* MSGraphSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSGraphSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B4D1241AF8215D0083D86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		318EB6B2D1F1367DF1AC4864 /* Pods-MSGraphSDK-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSGraphSDK-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSGraphSDK-OSX/Pods-MSGraphSDK-OSX.debug.xcconfig"; sourceTree = "<group>"; };
-		60C74F7E7D5B5D9FF77DCECD /* libPods-MSGraphSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSGraphSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1738E95CC9B70FE252AFE368 /* Pods-MSGraphSDK-Shared-MSGraphSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSGraphSDK-Shared-MSGraphSDKTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSGraphSDK-Shared-MSGraphSDKTests/Pods-MSGraphSDK-Shared-MSGraphSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		75AD06D2B781FB5A36468558 /* Pods-MSGraphSDK-Shared-MSGraphSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSGraphSDK-Shared-MSGraphSDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSGraphSDK-Shared-MSGraphSDKTests/Pods-MSGraphSDK-Shared-MSGraphSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B6D58CB2D3D42E63AD7AFFC /* Pods-MSGraphSDK-Shared-MSGraphSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSGraphSDK-Shared-MSGraphSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSGraphSDK-Shared-MSGraphSDK/Pods-MSGraphSDK-Shared-MSGraphSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		7C12E5B41CA3469400328A79 /* MSGraphSDKVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGraphSDKVersion.h; sourceTree = "<group>"; };
 		7C12E5B51CA3469400328A79 /* MSGraphSDKVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSGraphSDKVersion.m; sourceTree = "<group>"; };
 		7C4C19891CAAF1E000FBDFFD /* MSGraphClientConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGraphClientConfiguration.h; sourceTree = "<group>"; };
@@ -2618,16 +2621,14 @@
 		7C70EDF51C8E1D26008A0C07 /* MSGraphCoreSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGraphCoreSDK.h; sourceTree = "<group>"; };
 		7C70EE4C1C90DE73008A0C07 /* MSBlockAuthenticationProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSBlockAuthenticationProvider.h; sourceTree = "<group>"; };
 		7C70EE4D1C90DE73008A0C07 /* MSBlockAuthenticationProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSBlockAuthenticationProvider.m; sourceTree = "<group>"; };
-		A70244A41238F985725B1F0E /* Pods-MSGraphSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSGraphSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSGraphSDK/Pods-MSGraphSDK.release.xcconfig"; sourceTree = "<group>"; };
+		9DFE5D64A9C05EDCC4C612A2 /* Pods-MSGraphSDK-Shared-MSGraphSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSGraphSDK-Shared-MSGraphSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSGraphSDK-Shared-MSGraphSDK/Pods-MSGraphSDK-Shared-MSGraphSDK.release.xcconfig"; sourceTree = "<group>"; };
 		B0F99F601F2A688300CDE1AC /* MSGraphSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSGraphSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA23B9181D6251E000CB0C55 /* MSTimeOfDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTimeOfDay.h; sourceTree = "<group>"; };
 		BA23B9191D6251E000CB0C55 /* MSTimeOfDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTimeOfDay.m; sourceTree = "<group>"; };
-		BE924E32305F80BA7A065278 /* Pods-MSGraphSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSGraphSDKTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSGraphSDKTests/Pods-MSGraphSDKTests.release.xcconfig"; sourceTree = "<group>"; };
-		D1D0858B0D0686548DE368A8 /* libPods-MSGraphSDKTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSGraphSDKTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E89BAF5C44735D6683338221 /* Pods-MSGraphSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSGraphSDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSGraphSDKTests/Pods-MSGraphSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
-		EF81DA827871F39040843AFF /* Pods-MSGraphSDK-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSGraphSDK-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSGraphSDK-OSX/Pods-MSGraphSDK-OSX.release.xcconfig"; sourceTree = "<group>"; };
-		F855B94DAE38579BA7707139 /* libPods-MSGraphSDK-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSGraphSDK-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8995D618D1EE50F61F51604 /* Pods-MSGraphSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSGraphSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSGraphSDK/Pods-MSGraphSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		C51539526F221E543AD58700 /* Pods_MSGraphSDK_Shared_MSGraphSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSGraphSDK_Shared_MSGraphSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE49E2973B066669714D2D5 /* Pods-MSGraphSDK-Shared-MSGraphSDK-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSGraphSDK-Shared-MSGraphSDK-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSGraphSDK-Shared-MSGraphSDK-OSX/Pods-MSGraphSDK-Shared-MSGraphSDK-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		E9ABEB2AD5DF5BB35780106B /* Pods-MSGraphSDK-Shared-MSGraphSDK-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSGraphSDK-Shared-MSGraphSDK-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSGraphSDK-Shared-MSGraphSDK-OSX/Pods-MSGraphSDK-Shared-MSGraphSDK-OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		EB2FC69AC151097076D0A5A0 /* Pods_MSGraphSDK_Shared_MSGraphSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSGraphSDK_Shared_MSGraphSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2636,7 +2637,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EFE52591CEC9628002494E7 /* MSGraphSDK.framework in Frameworks */,
-				ED791DECEFED68832BD1C1B1 /* libPods-MSGraphSDKTests.a in Frameworks */,
+				FFB5CA2DCCB7335F70445C8F /* Pods_MSGraphSDK_Shared_MSGraphSDKTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2644,7 +2645,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				668D8C158FDD15041128EA3D /* libPods-MSGraphSDK.a in Frameworks */,
+				61C1B1F82666FB221BDC8EBA /* Pods_MSGraphSDK_Shared_MSGraphSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2652,7 +2653,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2851A9D27A8C555D32A8260D /* libPods-MSGraphSDK-OSX.a in Frameworks */,
+				AF2F97B77C0D4B02FB88066C /* Pods_MSGraphSDK_Shared_MSGraphSDK_OSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2836,8 +2837,8 @@
 				0EFE52551CEC9627002494E7 /* MSGraphSDKTests */,
 				10B4D1221AF8215D0083D86C /* MSGraphSDK */,
 				10B4D1211AF8215D0083D86C /* Products */,
-				F08C8D1591C8897B6CBE2BAF /* Pods */,
-				BF694AD52CBEB005D02D75FB /* Frameworks */,
+				D7C6A06867FD217653E4F3D4 /* Pods */,
+				552A9F9C98BE580C5F20852E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2870,6 +2871,16 @@
 				10B4D1241AF8215D0083D86C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		552A9F9C98BE580C5F20852E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB2FC69AC151097076D0A5A0 /* Pods_MSGraphSDK_Shared_MSGraphSDK.framework */,
+				1026D5276FD6029C58320C2C /* Pods_MSGraphSDK_Shared_MSGraphSDK_OSX.framework */,
+				C51539526F221E543AD58700 /* Pods_MSGraphSDK_Shared_MSGraphSDKTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7C4C19911CAAF77B00FBDFFD /* MSURLSession */ = {
@@ -3793,25 +3804,15 @@
 			path = requests;
 			sourceTree = "<group>";
 		};
-		BF694AD52CBEB005D02D75FB /* Frameworks */ = {
+		D7C6A06867FD217653E4F3D4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D1D0858B0D0686548DE368A8 /* libPods-MSGraphSDKTests.a */,
-				60C74F7E7D5B5D9FF77DCECD /* libPods-MSGraphSDK.a */,
-				F855B94DAE38579BA7707139 /* libPods-MSGraphSDK-OSX.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F08C8D1591C8897B6CBE2BAF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E89BAF5C44735D6683338221 /* Pods-MSGraphSDKTests.debug.xcconfig */,
-				BE924E32305F80BA7A065278 /* Pods-MSGraphSDKTests.release.xcconfig */,
-				F8995D618D1EE50F61F51604 /* Pods-MSGraphSDK.debug.xcconfig */,
-				A70244A41238F985725B1F0E /* Pods-MSGraphSDK.release.xcconfig */,
-				318EB6B2D1F1367DF1AC4864 /* Pods-MSGraphSDK-OSX.debug.xcconfig */,
-				EF81DA827871F39040843AFF /* Pods-MSGraphSDK-OSX.release.xcconfig */,
+				7B6D58CB2D3D42E63AD7AFFC /* Pods-MSGraphSDK-Shared-MSGraphSDK.debug.xcconfig */,
+				9DFE5D64A9C05EDCC4C612A2 /* Pods-MSGraphSDK-Shared-MSGraphSDK.release.xcconfig */,
+				E9ABEB2AD5DF5BB35780106B /* Pods-MSGraphSDK-Shared-MSGraphSDK-OSX.debug.xcconfig */,
+				CCE49E2973B066669714D2D5 /* Pods-MSGraphSDK-Shared-MSGraphSDK-OSX.release.xcconfig */,
+				75AD06D2B781FB5A36468558 /* Pods-MSGraphSDK-Shared-MSGraphSDKTests.debug.xcconfig */,
+				1738E95CC9B70FE252AFE368 /* Pods-MSGraphSDK-Shared-MSGraphSDKTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -4254,6 +4255,7 @@
 				B0AC95771F3B6901005F9283 /* MSGraphShared.h in Headers */,
 				B0AC95541F3B6901005F9283 /* MSGraphImportance.h in Headers */,
 				B0AC95571F3B6901005F9283 /* MSGraphItemReference.h in Headers */,
+				B03F1B061F3B78E300B5D5F6 /* MSGraphClient+DefaultConfiguration.h in Headers */,
 				B0AC95611F3B6901005F9283 /* MSGraphPasswordProfile.h in Headers */,
 				B0AC95B51F3B6912005F9283 /* MSGraphDirectoryObjectRequestBuilder.h in Headers */,
 				B0AC964A1F3B6912005F9283 /* MSGraphOrganizationRequest.h in Headers */,
@@ -4677,12 +4679,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EFE525E1CEC9628002494E7 /* Build configuration list for PBXNativeTarget "MSGraphSDKTests" */;
 			buildPhases = (
-				246A2B1F8115709842093AC8 /* [CP] Check Pods Manifest.lock */,
+				12950A19569331B3626CD408 /* [CP] Check Pods Manifest.lock */,
 				0EFE52501CEC9627002494E7 /* Sources */,
 				0EFE52511CEC9627002494E7 /* Frameworks */,
 				0EFE52521CEC9627002494E7 /* Resources */,
-				B600783A5D97694F58FCCC54 /* [CP] Embed Pods Frameworks */,
-				04368B821E7292669430D7C6 /* [CP] Copy Pods Resources */,
+				419A773EB73125F5A721A168 /* [CP] Embed Pods Frameworks */,
+				4D6A7036A7485F730D924971 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -4698,12 +4700,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10B4D1361AF8215D0083D86C /* Build configuration list for PBXNativeTarget "MSGraphSDK" */;
 			buildPhases = (
-				15C9AA3D521C203F81C71C7C /* [CP] Check Pods Manifest.lock */,
+				EC46345A8FEA3BA8DEAE651B /* [CP] Check Pods Manifest.lock */,
 				10B4D11B1AF8215D0083D86C /* Sources */,
 				10B4D11C1AF8215D0083D86C /* Frameworks */,
 				10B4D11D1AF8215D0083D86C /* Headers */,
 				10B4D11E1AF8215D0083D86C /* Resources */,
-				11B79A3D0264288EF8AA463A /* [CP] Copy Pods Resources */,
+				FA556F44077922E4377A1100 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -4718,12 +4720,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0F99F671F2A688300CDE1AC /* Build configuration list for PBXNativeTarget "MSGraphSDK-OSX" */;
 			buildPhases = (
-				AAB96A6752925A83072FD149 /* [CP] Check Pods Manifest.lock */,
+				A50A697ADF07DCD240C61FA4 /* [CP] Check Pods Manifest.lock */,
 				B0F99F5B1F2A688300CDE1AC /* Sources */,
 				B0F99F5C1F2A688300CDE1AC /* Frameworks */,
 				B0F99F5D1F2A688300CDE1AC /* Headers */,
 				B0F99F5E1F2A688300CDE1AC /* Resources */,
-				29997AEDFE89ABC203141566 /* [CP] Copy Pods Resources */,
+				4013AE364B1051A86B46AED7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -4740,7 +4742,7 @@
 		10B4D1171AF8215D0083D86C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Microsoft;
 				TargetAttributes = {
 					0EFE52531CEC9627002494E7 = {
@@ -4802,7 +4804,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		04368B821E7292669430D7C6 /* [CP] Copy Pods Resources */ = {
+		12950A19569331B3626CD408 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSGraphSDK-Shared-MSGraphSDKTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4013AE364B1051A86B46AED7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4814,106 +4834,91 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSGraphSDKTests/Pods-MSGraphSDKTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSGraphSDK-Shared-MSGraphSDK-OSX/Pods-MSGraphSDK-Shared-MSGraphSDK-OSX-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		11B79A3D0264288EF8AA463A /* [CP] Copy Pods Resources */ = {
+		419A773EB73125F5A721A168 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSGraphSDK/Pods-MSGraphSDK-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		15C9AA3D521C203F81C71C7C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MSGraphSDK-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		246A2B1F8115709842093AC8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MSGraphSDKTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		29997AEDFE89ABC203141566 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSGraphSDK-OSX/Pods-MSGraphSDK-OSX-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AAB96A6752925A83072FD149 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MSGraphSDK-OSX-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B600783A5D97694F58FCCC54 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MSGraphSDK-Shared-MSGraphSDKTests/Pods-MSGraphSDK-Shared-MSGraphSDKTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/OCMock/OCMock.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCMock.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSGraphSDKTests/Pods-MSGraphSDKTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSGraphSDK-Shared-MSGraphSDKTests/Pods-MSGraphSDK-Shared-MSGraphSDKTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D6A7036A7485F730D924971 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSGraphSDK-Shared-MSGraphSDKTests/Pods-MSGraphSDK-Shared-MSGraphSDKTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A50A697ADF07DCD240C61FA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSGraphSDK-Shared-MSGraphSDK-OSX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC46345A8FEA3BA8DEAE651B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSGraphSDK-Shared-MSGraphSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA556F44077922E4377A1100 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSGraphSDK-Shared-MSGraphSDK/Pods-MSGraphSDK-Shared-MSGraphSDK-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -5825,7 +5830,7 @@
 /* Begin XCBuildConfiguration section */
 		0EFE525C1CEC9628002494E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E89BAF5C44735D6683338221 /* Pods-MSGraphSDKTests.debug.xcconfig */;
+			baseConfigurationReference = 75AD06D2B781FB5A36468558 /* Pods-MSGraphSDK-Shared-MSGraphSDKTests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -5842,7 +5847,7 @@
 		};
 		0EFE525D1CEC9628002494E7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE924E32305F80BA7A065278 /* Pods-MSGraphSDKTests.release.xcconfig */;
+			baseConfigurationReference = 1738E95CC9B70FE252AFE368 /* Pods-MSGraphSDK-Shared-MSGraphSDKTests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -5870,8 +5875,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -5881,6 +5888,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -5917,8 +5925,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -5927,6 +5937,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -5946,9 +5957,9 @@
 		};
 		10B4D1371AF8215D0083D86C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8995D618D1EE50F61F51604 /* Pods-MSGraphSDK.debug.xcconfig */;
+			baseConfigurationReference = 7B6D58CB2D3D42E63AD7AFFC /* Pods-MSGraphSDK-Shared-MSGraphSDK.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = ZP9ZJ4EF3S;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -5965,8 +5976,9 @@
 		};
 		10B4D1381AF8215D0083D86C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A70244A41238F985725B1F0E /* Pods-MSGraphSDK.release.xcconfig */;
+			baseConfigurationReference = 9DFE5D64A9C05EDCC4C612A2 /* Pods-MSGraphSDK-Shared-MSGraphSDK.release.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = ZP9ZJ4EF3S;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -5983,7 +5995,7 @@
 		};
 		B0F99F651F2A688300CDE1AC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 318EB6B2D1F1367DF1AC4864 /* Pods-MSGraphSDK-OSX.debug.xcconfig */;
+			baseConfigurationReference = E9ABEB2AD5DF5BB35780106B /* Pods-MSGraphSDK-Shared-MSGraphSDK-OSX.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -6015,7 +6027,7 @@
 		};
 		B0F99F661F2A688300CDE1AC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF81DA827871F39040843AFF /* Pods-MSGraphSDK-OSX.release.xcconfig */;
+			baseConfigurationReference = CCE49E2973B066669714D2D5 /* Pods-MSGraphSDK-Shared-MSGraphSDK-OSX.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;

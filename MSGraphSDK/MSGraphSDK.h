@@ -1,8 +1,3 @@
-// Copyright (c) Microsoft Corporation.  All Rights Reserved.  Licensed under the MIT License.  See License in the project root for license information.
-
-#ifndef MSSDK_h
-#define MSSDK_h
-
 #import <TargetConditionals.h>
 #import <Foundation/Foundation.h>
 
@@ -18,14 +13,14 @@ FOUNDATION_EXPORT double MSGraphSDKVersionNumber;
 //! Project version string for GLCore.
 FOUNDATION_EXPORT const unsigned char MSGraphSDKVersionString[];
 
-#import "MSAuthenticationProvider.h"
-#import "MSHttpProvider.h"
-#import "MSURLSessionManager.h"
-#import "MSLogger.h"
-#import "MSGraphCoreSDK.h"
+#import <MSGraphSDK/MSAuthenticationProvider.h>
+#import <MSGraphSDK/MSHttpProvider.h>
+#import <MSGraphSDK/MSURLSessionManager.h>
+#import <MSGraphSDK/MSLogger.h>
+#import <MSGraphSDK/MSGraphCoreSDK.h>
 
-#import "NSError+MSGraphSDK.h"
-#import "MSGraphClient+DefaultConfiguration.h"
-#import "MSGraphClientConfiguration+DefaultConfiguration.h"
+#import <MSGraphSDK/NSError+MSGraphSDK.h>
+#import <MSGraphSDK/MSGraphClient+DefaultConfiguration.h>
+#import <MSGraphSDK/MSGraphClientConfiguration+DefaultConfiguration.h>
 
-#endif
+
