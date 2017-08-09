@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.10"
 
-  s.source       = { :git => "https://github.com/MicrosoftGraph/msgraph-sdk-ios.git",
+  s.source       = { :git => "https://github.com/marcprovost/msgraph-sdk-ios.git",
                      :tag => "#{s.version}"}
 
   s.source_files = "MSGraphSDK/MSGraphSDK.h"
