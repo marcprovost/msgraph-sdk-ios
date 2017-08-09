@@ -7,7 +7,7 @@
 #import "MSGraphModels.h"
 #import "MSCollectionRequest.h"
 
-typedef void (^MSGraphDriveItemCompletionHandler)(MSGraphDriveItem *response, NSError *error);
+
 
 typedef void (^MSGraphDriveItemsCollectionCompletionHandler)(MSCollection *response, MSGraphDriveItemsCollectionRequest *nextRequest, NSError *error);
 

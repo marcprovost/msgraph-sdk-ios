@@ -7,7 +7,7 @@
 #import "MSGraphModels.h"
 #import "MSCollectionRequest.h"
 
-typedef void (^MSGraphContactCompletionHandler)(MSGraphContact *response, NSError *error);
+
 
 typedef void (^MSGraphUserContactsCollectionCompletionHandler)(MSCollection *response, MSGraphUserContactsCollectionRequest *nextRequest, NSError *error);
 

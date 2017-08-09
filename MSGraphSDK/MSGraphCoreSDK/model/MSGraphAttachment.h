@@ -14,3 +14,5 @@
     @property (nonatomic, setter=setIsInline:, getter=isInline) BOOL isInline;
   
 @end
+
+typedef void (^MSGraphAttachmentCompletionHandler)(MSGraphAttachment *response, NSError *error);

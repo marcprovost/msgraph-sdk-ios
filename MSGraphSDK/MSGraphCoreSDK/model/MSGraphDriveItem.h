@@ -41,3 +41,5 @@
     @property (nonatomic, setter=setThumbnails:, getter=thumbnails) NSArray* thumbnails;
   
 @end
+
+typedef void (^MSGraphDriveItemCompletionHandler)(MSGraphDriveItem *response, NSError *error);

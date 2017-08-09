@@ -44,3 +44,5 @@
     @property (nonatomic, setter=setPhoto:, getter=photo) MSGraphProfilePhoto* photo;
   
 @end
+
+typedef void (^MSGraphContactCompletionHandler)(MSGraphContact *response, NSError *error);

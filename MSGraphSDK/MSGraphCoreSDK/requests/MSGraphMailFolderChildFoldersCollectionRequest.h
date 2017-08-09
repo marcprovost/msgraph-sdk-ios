@@ -7,7 +7,7 @@
 #import "MSGraphModels.h"
 #import "MSCollectionRequest.h"
 
-typedef void (^MSGraphMailFolderCompletionHandler)(MSGraphMailFolder *response, NSError *error);
+
 
 typedef void (^MSGraphMailFolderChildFoldersCollectionCompletionHandler)(MSCollection *response, MSGraphMailFolderChildFoldersCollectionRequest *nextRequest, NSError *error);
 

@@ -18,3 +18,5 @@
   - (MSGraphMessage*) messages:(NSInteger)index;
 
 @end
+
+typedef void (^MSGraphMailFolderCompletionHandler)(MSGraphMailFolder *response, NSError *error);

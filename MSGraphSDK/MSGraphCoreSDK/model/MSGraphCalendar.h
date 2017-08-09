@@ -17,3 +17,5 @@
   - (MSGraphEvent*) events:(NSInteger)index;
 
 @end
+
+typedef void (^MSGraphCalendarCompletionHandler)(MSGraphCalendar *response, NSError *error);

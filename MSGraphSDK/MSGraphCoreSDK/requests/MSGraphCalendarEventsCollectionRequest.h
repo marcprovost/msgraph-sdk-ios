@@ -7,7 +7,7 @@
 #import "MSGraphModels.h"
 #import "MSCollectionRequest.h"
 
-typedef void (^MSGraphEventCompletionHandler)(MSGraphEvent *response, NSError *error);
+
 
 typedef void (^MSGraphCalendarEventsCollectionCompletionHandler)(MSCollection *response, MSGraphCalendarEventsCollectionRequest *nextRequest, NSError *error);
 
