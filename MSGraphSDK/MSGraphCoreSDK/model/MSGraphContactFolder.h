@@ -14,3 +14,5 @@
     @property (nonatomic, setter=setChildFolders:, getter=childFolders) NSArray* childFolders;
   
 @end
+
+typedef void (^MSGraphContactFolderCompletionHandler)(MSGraphContactFolder *response, NSError *error);

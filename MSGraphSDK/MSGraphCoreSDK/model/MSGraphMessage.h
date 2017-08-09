@@ -34,3 +34,5 @@
     @property (nonatomic, setter=setAttachments:, getter=attachments) NSArray* attachments;
   
 @end
+
+typedef void (^MSGraphMessageCompletionHandler)(MSGraphMessage *response, NSError *error);

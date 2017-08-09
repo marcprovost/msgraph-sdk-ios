@@ -19,3 +19,5 @@
     @property (nonatomic, setter=setPosts:, getter=posts) NSArray* posts;
   
 @end
+
+typedef void (^MSGraphConversationThreadCompletionHandler)(MSGraphConversationThread *response, NSError *error);
